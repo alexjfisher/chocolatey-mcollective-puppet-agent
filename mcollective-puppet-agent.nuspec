@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mcollective-puppet-agent</id>
+    <version>1.11.1</version>
+    <title>mcollective-puppet-agent</title>
+    <authors>Puppet Inc</authors>
+	<owners>Alex Fisher</owners>
+    <projectUrl>https://github.com/puppetlabs/mcollective-puppet-agent</projectUrl>
+	<iconUrl>https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/puppet.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>mcollective-puppet-agent mcollective puppet plugins</tags>
+    <summary>MCollective Puppet Agent Plugin</summary>
+    <description>Mcollective plugin for managing the puppet agent</description>
+	<copyright>Puppet Inc</copyright>
+	<dependencies>
+      <dependency id="puppet-agent" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
